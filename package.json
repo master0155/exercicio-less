@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "less": "less ./src/styles/main.less ./build/styles/main.css",
+    "less": "lessc ./src/style/main.less ./build/style/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

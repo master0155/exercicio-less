@@ -1,11 +1,16 @@
 * {
-  margin: 1;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
 body {
   background-color: #f5f6fa;
+}
+@media (max-width: 767px) {
+  body {
+    background-color: #44bd32;
+  }
 }
 li {
   list-style: none;
